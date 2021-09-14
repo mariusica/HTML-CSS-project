@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>HTML Homework</title>
+    <script src="https://kit.fontawesome.com/2d87a5ea03.js" crossorigin="anonymous"></script>
+    <style>
+        /* Internal CSS */
+        html {
+            background: url("https://i.imgur.com/3Yx4dhP.png") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* tag CSS */
+        header {
+            align-items: center;
+            padding: 3.15rem 0;
+            color: white;
+            background-color: red;
+        }
+
+        span {
+            font-size: 150%;
+        }
+
+        body {
+            margin-left: 200px;
+            margin-right: 200px;
+            background-color: rgb(250, 230, 200);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        li {
+            padding: 5px
+        }
+
+        #text.istoric {
+            margin-left: 200px;
+            margin-right: 200px;
+            display: block;
+        }
+
+        /* class CSS */
+        .istorie {
+            max-width: 58rem;
+            margin: 0 auto;
+            font-size: large;
+        }
+
+        .bugimage {
+            max-width: 99%;
+            max-height: 99%;
+        }
+
+        footer {
+            margin-top: 5rem;
+            background-color: rgb(250, 85, 85);
+            color: white;
+            text-align: center
+        }
+
+        #footerid {
+            height: 100px;
+            line-height: 100px;
+            font-size: 48px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* id CSS */
+        #RequirementAnalysis {
+            background-color: rgb(183, 238, 161);
+        }
+
+        #TestPlanning {
+            background-color: rgb(146, 160, 243);
+        }
+
+        #TestAnalysisandDesign {
+            background-color: rgb(220, 252, 213);
+        }
+
+        #TestExecution {
+            background-color: rgb(250, 175, 246);
+        }
+
+        #TestReporting {
+            background-color: rgb(193, 253, 243);
+        }
+
+        #TestClosure {
+            background-color: rgb(248, 243, 172);
+        }
+
+        #TestingProcess {
+            display: inline;
+        }
+
+        #ProceseleTestarii li {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Software Testing</h1>
+        <br>
+        <span>
+            <a href="https://www.linkedin.com/in/mot-marius-b4152926" target="_blank">
+                <i class="far fa-user"></i>
+            </a>
+            Marius Mot
+        </span>&nbsp;&nbsp;&nbsp;
+        <span>
+            <a href="https://www.timeanddate.com/calendar/" target="_blank">
+                <i class="far fa-calendar-alt"></i>
+            </a>
+            4 Sep 2021
+        </span>
+    </header>
+    <br>
+    <div class="istorie">
+        <p id="text.istoric">Back on September 9, 1947, Grace Hopper, a Harvard computer scientist, was running tests on
+            a calculator and
+            found calculation errors. She did some investigation and found a moth that had landed between two solenoid
+            contacts, shorting out an electromechanical relay. Apparently, the bug had been attracted by the warmth of
+            the machine.</p>
+        <br>
+        <p><img class="bugimage" src="https://i.imgur.com/B66HXQz.jpg?1" /></p>
+    </div id="TestingProcess">
+    <br>
+    <h1>Testing Process</h1>
+    <br>
+    <div id="TestingProcess">
+        <ul id="ProceseleTestarii">
+            <!--inline CSS -->
+            <a href="#RequirementAnalysis">
+                <li style="border: 2px solid black">Requirement Analysis</li>
+            </a>
+            <a href="#TestPlanning">
+                <li style="border: 2px solid black">Test Planning</li>
+            </a>
+            <a href="#TestAnalysisandDesign">
+                <li style="border: 2px solid black">Test Analysis and Design</li>
+            </a>
+            <a href="#TestExecution">
+                <li style="border: 2px solid black">Test Execution</li>
+            </a>
+            <a href="#TestReporting">
+                <li style="border: 2px solid black">Test Reporting</li>
+            </a>
+            <a href="#TestClosure">
+                <li style="border: 2px solid black">Test Closure</li>
+            </a>
+        </ul>
+        <br>
+        <div id="RequirementAnalysis">
+            <br>
+            <h1>Requirement Analysis</h1>
+            <br>
+            <h2>Why?</h2>
+            <br>
+            <p> To understand the product requirements, what the client wants</p>
+            <p>To raise any requirements inconsistencies as soon as possible</p>
+            <p>To refine the scope of testing</p>
+            <br>
+            <h2>How?</h2>
+            <br>
+            <p>The requirements are read and analyzed</p>
+            <p>Clarify all requirements documents</p>
+            <br>
+        </div>
+        <div id="TestPlanning">
+            <br>
+            <h1>Test Planning</h1>
+            <br>
+            <h2>Why?</h2>
+            <br>
+            <p>To describe the test strategy, objectives, schedule, estimation, deliverables, and resources required to
+                perform testing for a software product</p>
+            <p>It helps us determine the effort needed to validate the quality of the application under test</p>
+            <p>Also serves as a blueprint to conduct software testing activities as a defined process, which is minutely
+                monitored and controlled by the test manager.</p>
+            <br>
+            <h2>How?</h2>
+            <br>
+            <p>Analyze the product</p>
+            <p>Design the Test Strategy</p>
+            <p>Define the Test Objectives</p>
+            <p>Define Test Criteria</p>
+            <p>Resource Planning</p>
+            <p>Plan Test Environment</p>
+            <p>Schedule & Estimation</p>
+            <p>Determine Test Deliverables</p>
+            <br>
+        </div>
+        <div id="TestAnalysisandDesign">
+            <br>
+            <h1>Test Analysis and Design</h1>
+            <br>
+            <h2>Why</h2>
+            <br>
+            <p>Prepare all activities needed to be performed in order to be able to execute the actual testing</p>
+            <p>Analyse what to test</p>
+            <p>Design how to test</p>
+            <br>
+            <h2>How?</h2>
+            <br>
+            <p>Review in more details the requirements or other input in order to identify what needs to be tested</p>
+            <p>Create, review, update the tests</p>
+            <p>Create / Identify / Update the data to test with</p>
+            <p>Identify/set/configure the environments where to test</p>
+            <br>
+        </div>
+        <div id="TestExecution">
+            <br>
+            <h1>Test Execution</h1>
+            <br>
+            <h2>Which activities have been covered?</h2>
+            <br>
+            <p>Report bug</p>
+            <p>Run test cases</p>
+            <p>Exploratory testing</p>
+            <br>
+            <h2>Which testing types have been covered?</h2>
+            <p>Black-box and white-box testing</p>
+            <p>Functional and Non-functional testing</p>
+            <p>Manual and Automated testing</p>
+            <p>Analyze results</p>
+            <p>Dynamic and Static testing</p>
+            <br>
+        </div>
+        <div id="TestReporting">
+            <br>
+            <h1>Test Reporting</h1>
+            <br>
+            <h2>What?</h2>
+            <p>The primary test deliverable from the test execution phase</p>
+            <p>Assess the test execution results against the proposed quality measures</p>
+            <br>
+            <h2>Why?</h2>
+            <p>Created for stakeholders to know the quality status of the product under test and
+                to make further decisions</p>
+            <br>
+            <h2>How?</h2>
+            <br>
+            <p>Evaluate the test results</p>
+            <p>Review existing opened defects</p>
+            <p>Provide recommendations if the product can / cannot be sent to the client</p>
+            <p>Create test reports for stakeholders as agreed</p>
+            <br>
+        </div>
+        <div id="TestClosure">
+            <br>
+            <h1>Test Closure</h1>
+            <br>
+            <h2>What are test closure activities?</h2>
+            <p>Checking for completion of tests</p>
+            <p>Handing over test objects</p>
+            <p>Learning Experience</p>
+            <p>Archiving</p>
+            <br>
+        </div>
+    </div>
+    <footer>
+        <div id="footerid">
+            <p>
+                <span>
+                    Created with the help of my friend
+                    <a href="https://letmegooglethat.com/?q=Scoala+informala" target="_blank">
+                        <img src="https://i.imgur.com/PCo0JOB.png" alt="Google logo" width="200" height="60">
+
+                    </a>
+                </span>
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
